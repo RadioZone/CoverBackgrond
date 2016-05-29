@@ -1,0 +1,11 @@
+<?php
+
+// Home directory who save background 'radiozone.png'
+$home_path = '/home/choiz/';
+
+// Display width & height
+$display_width = 1920;
+$display_height = 1080;
+
+// Sentens size
+$font_size = 18;
