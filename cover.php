@@ -2,7 +2,6 @@
 $url = 'https://www.radiozone.fr/';
 $stations = array('80s', '90s', '00s', '10s');
 $station = $stations[rand(0, count($stations)-1)];
-$station = '00s';
 
 $json = json_decode(file_get_contents($url.$station.'/meta'), true);
 $cover = $json['current']['cover'];
