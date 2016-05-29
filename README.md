@@ -2,10 +2,17 @@
 
 Generate a background with a station cover
 
-Run:
+## Preview
+
+![background](https://raw.githubusercontent.com/RadioZone/CoverBackground/master/radiozone.png)
+
+## Run
+
 `php cover.php` to generate background.
 
-Requirement:
+
+## Requirement
+
 PHP, ImageMagick, wget
 
 I use i3lock with this parameters:
